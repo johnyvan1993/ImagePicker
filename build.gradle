@@ -5,10 +5,11 @@ buildscript {
         jcenter()
         mavenLocal()
         maven { url 'https://jitpack.io' }
+        google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.2.2'
-        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.4.1'
+        classpath 'com.android.tools.build:gradle:3.1.4'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.0'
     }
 }
 
@@ -17,6 +18,7 @@ allprojects {
         jcenter()
         mavenLocal()
         maven { url 'https://jitpack.io' }
+        google()
     }
 }
 
@@ -25,15 +27,6 @@ task clean(type: Delete) {
 }
 
 ext {
-    minSdk = 14
-    targetSdk = 19
-    buildToolsVersion = "23.0.2"
-    compileSdkVersion = 23
-
     javaSourceCompatibility = JavaVersion.VERSION_1_8
     javaTargetCompatibility = JavaVersion.VERSION_1_8
-
-    // Libraries
-    appcompat7Version = '23.3.0'
-    recyclerviewVersion = '23.3.0'
 }
