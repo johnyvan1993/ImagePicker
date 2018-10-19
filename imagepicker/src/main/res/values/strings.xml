@@ -2,7 +2,7 @@
     <string name="app_name">imagePicker</string>
     <string name="general_ok">OK</string>
     <string name="general_cancel">Cancel</string>
-    <string name="general_send">Send</string>
+    <string name="general_send">Take</string>
     <string name="general_original">Original</string>
     <string name="bracket_str">(%1$s)</string>
     <string name="bracket_num">(%1$d)</string>
